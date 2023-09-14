@@ -8,13 +8,16 @@ function Home() {
       <Link to={`/elements`}>
           <p>ELEMENTS</p>
       </Link>
-      <Link to={`/elements`}>
+      <Link to={`/weapons`}>
           <p>WEAPONS</p>
       </Link>
-      <Link to={`/elements`}>
+      <Link to={`/items`}>
           <p>ITEMS</p>
       </Link>
-      <Link to={`/elements`}>
+      <Link to={`/magics`}>
+          <p>MAGICS</p>
+      </Link>
+      <Link to={`/creatures`}>
           <p>CREATURES</p>
       </Link>
     </>

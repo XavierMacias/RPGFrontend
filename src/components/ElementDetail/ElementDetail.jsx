@@ -11,8 +11,8 @@ function ElementDetail() {
 
     useEffect(() => {
         const getElement = async() => {
-        const char = await axios.get('http://localhost:5000/elements/'+id);
-        setElement(char.data);
+        const ele = await axios.get('http://localhost:5000/elements/'+id);
+        setElement(ele.data);
         };
         getElement();
     }, [id]);
